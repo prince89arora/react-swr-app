@@ -1,2 +1,3 @@
-# react-swr-app
-Demo application using swr and react.
+# React + SWR + TypeScript + Vite
+
+A demo application using React, SWR, Typescript and Vite.
