@@ -1,0 +1,14 @@
+{
+    "pets": [
+      { "id": "1", "name": "Bunny", "dob": "2020-01-01", "species": "1", "owner": "1" },
+      { "id": "2", "name": "Fido", "dob": "2020-01-01", "species": "1", "owner": "1" }
+    ],
+    "owner": [
+      { "id": "1", "firstName": "John", "lastName": "Doe", "address": "123 Main St", "email": "2a7tZ@example.com" },
+      { "id": "2", "firstName": "Jane", "lastName": "Doe", "address": "123 Main St", "email": "2a7tZ@example.com" }
+    ],
+    "species": [
+      { "id": "1", "name": "dog" },
+      { "id": "2", "name": "cat" }
+    ]
+  }
