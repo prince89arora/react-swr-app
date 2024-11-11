@@ -4,6 +4,8 @@ import Home from "./Home";
 import About from "./About";
 import { Grommet } from "grommet";
 import PetsList from "./pets/pages/PetsList";
+import { SWRConfig } from "swr";
+import { fetcher } from "./global/fetcher";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,14 @@ const router = createBrowserRouter([
   },
 ]);
 
+/**
+ * The main application component.
+ *
+ * This component wraps the {@link RouterProvider} for the application with a
+ * {@link Grommet} component to provide the global theme.
+ *
+ * @returns The main application component.
+ */
 function App() {
   return (
     <Grommet
@@ -24,7 +34,9 @@ function App() {
         global: {},
       }}
     >
-      <RouterProvider router={router} />
+      <SWRConfig value={{ fetcher: fetcher, shouldRetryOnError: false }}>
+        <RouterProvider router={router} />
+      </SWRConfig>
     </Grommet>
   );
 }
