@@ -1,14 +1,13 @@
-export interface Pet {
-    id: number;
-    name: string;
-    dob: string;
-    species: number;
-    owner: number;
-};
+import { CommonUseDataReturn } from "../types";
 
-export interface UsePetsReturn {
-    data: Pet[] | null;
-    error: any;
-    isLoading: boolean;
-    createPet: (pet: Pet) => void;
+export interface Pet {
+  id: number;
+  name: string;
+  dob: string;
+  species: number;
+  owner: number;
+}
+
+export interface UsePetsReturn extends CommonUseDataReturn<Pet[]> {
+  createPet: (pet: Pet) => void;
 }

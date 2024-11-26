@@ -1,14 +1,14 @@
 {
   "pets": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Bunny",
       "dob": "2020-01-01",
       "species": 1,
       "owner": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Fido",
       "dob": "2020-01-01",
       "species": 1,
@@ -54,6 +54,69 @@
       "name": "dddfff",
       "dob": "04/12/2024",
       "species": "1",
+      "owner": "1"
+    },
+    {
+      "id": "1ab7",
+      "name": "asa",
+      "dob": "12/12/1989",
+      "species": "Dog",
+      "owner": "1"
+    },
+    {
+      "id": "2539",
+      "name": "test",
+      "dob": "12/12/1989",
+      "species": "Dog",
+      "owner": "1"
+    },
+    {
+      "id": "eebf",
+      "name": "asdnadna",
+      "dob": "12/12/1989",
+      "species": "Dog",
+      "owner": "1"
+    },
+    {
+      "id": "e34c",
+      "name": "lknlkn",
+      "dob": "12/12/1989",
+      "species": "Dog",
+      "owner": "1"
+    },
+    {
+      "id": "7624",
+      "name": "lknlkn",
+      "dob": "12/12/1989",
+      "species": "Dog",
+      "owner": "1"
+    },
+    {
+      "id": "bcd1",
+      "name": "---",
+      "dob": "04/12/2024",
+      "species": "dog",
+      "owner": "1"
+    },
+    {
+      "id": "d708",
+      "name": "---test",
+      "dob": "04/12/2024",
+      "species": "dog",
+      "owner": "1"
+    },
+    {
+      "id": "ae8d",
+      "name": "zslakndlas",
+      "dob": "12/12/1989",
+      "species": "fog",
+      "owner": "1"
+    },
+    {
+      "id": "4337",
+      "name": "zslakndlas",
+      "dob": "12/12/1989",
+      "species": "fog",
       "owner": "1"
     }
   ],

@@ -34,7 +34,12 @@ function App() {
         global: {},
       }}
     >
-      <SWRConfig value={{ fetcher: fetcher, shouldRetryOnError: false }}>
+      <SWRConfig
+        value={{
+          fetcher: fetcher,
+          shouldRetryOnError: false,
+        }}
+      >
         <RouterProvider router={router} />
       </SWRConfig>
     </Grommet>
